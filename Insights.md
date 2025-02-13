@@ -22,13 +22,18 @@ O modelo baseado em **RandomForest** treinado apresenta os seguintes erros:
 📌 **Interpretação dos erros:**
 - A média de gastos médicos no dataset é de **12.784 dólares**, e **50% das despesas são menores que 9.443 dólares**.
 - Um erro médio de **1549 dólares** pode ser significativo em situações que envolve gastos baixos.
-- O modelo tem dificuldades em prever gastos elevados devido à menor quantidade de instâncias representando outliers no conjunto de dados.
+- Já um erro de **1549 dólares** pode ser menos significativo em situações que envolve gastos altos.
+- Como os gastos então muito mais concentrados nos quatis Q1, Q2 e Q3, previsões para gastos abaixo de 20.000 doláres podem ser mais acertivas devido a melhor generalização do modelo.
+- O modelo pode ter menos precisão em gastos elevados devido à menor concentração de instâncias em valores a partir da faixa de $30.000 conjunto de dados.
 - O modelo é **mais confiável para despesas mais baixas** e pode apresentar maior erro para valores altos.
 
 ⚠️ **Sugestão para previsões mais seguras:**
 Ao prever um gasto alto, o valor estimado deve ser acompanhado por um intervalo de confiança baseado no MAE. Por exemplo:
 
 > **Se o modelo prever 20.000 dólares, um intervalo seguro seria de 21.549 dólares, considerando o MAE como margem de erro.**
+
+Ao prever um gasto baixo, o valor estimado também deve ser acompanhado por um intervalo de confiança, mas um pouco menor que o MAE.
+
 
 📌 **Melhoria do modelo:**
 - Incluir mais instâncias representando **outliers** para um melhor aprendizado do modelo.
