@@ -59,6 +59,8 @@ O repositório está organizado da seguinte forma:
     *   `medical-cost-MLprediction.ipynb`: Jupyter Notebook principal contendo todo o código do projeto, desde a análise exploratória até a avaliação do modelo final.
     *   `README.md`: Este arquivo, fornecendo a documentação do projeto.
     *   `Train_Data.csv`: Dataset utilizado no projeto.
+    *   `Insights.md`: Possui mais detalhes sobre: O desempenho do modelo, as variáveis do dataset e o plano de negócios.S
+
 
 
 ## 📖 Metodologia e Fluxo de Trabalho
