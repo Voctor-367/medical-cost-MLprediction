@@ -66,7 +66,7 @@ O repositório está organizado da seguinte forma:
 ## 📖 Metodologia e Fluxo de Trabalho
 
 ### 🔍 Análise Exploratória de Dados (EDA)
-- Utilização de histogramas, gráficos de barras, gráficos de dispersão, boxplots, violin plots, pairplots, jointplots e mapas de calor para entender a distribuição das variáveis, identificar outliers e padrões relevantes.
+- Utilização de histogramas, gráficos de barras, gráficos de dispersão, violin plots, e matriz de correlação para entender a distribuição das variáveis, identificar outliers e padrões relevantes.
 
 ### ⚙️ Pré-processamento dos Dados
 - Codificação de variáveis categóricas (One-Hot Encoding).
@@ -123,7 +123,7 @@ O repositório está organizado da seguinte forma:
 - **Acompanhamento nutricional** para evitar obesidade, incluindo consultas e incentivos para prática esportiva.
 
 ## ⚠️ Limitações e Próximos Passos
-- **Outliers:** O modelo pode ter dificuldades em prever custos extremamente altos, com um resíduo maior, pois custos altos no geral não estão bem distribuídos, o que dificultou o modelo a generalizar nesses casos.
+- **Valores extremos:** O modelo pode ter dificuldades em prever custos extremamente altos, com um resíduo maior, pois custos altos no geral não estão bem distribuídos, o que dificultou o modelo a generalizar nesses casos.
 - **Variáveis não incluídas:** Não há dados sobre doenças preexistentes, histórico familiar ou hábitos de saúde detalhados.
 
 ## 📜 Licença
